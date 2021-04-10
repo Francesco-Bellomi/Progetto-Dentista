@@ -20,7 +20,7 @@ class PublicController extends Controller
             ['nome'=>'Polosky acofie', 'ruolo'=>'Segretaria', 'storia'=>'Polosky acofie nato a Parigi, ha svolto i suoi studi Odontoiatrici nel sud della francia ,trasferito in Italia decide di aprire il suo studio che divenne in pochi mesi uno dei più rinomati', 'img'=>'/img/dentista3.jpg'],
             ['nome'=>'Naue Jkoea', 'ruolo'=>'Assistente Dentista', 'storia'=>'Naue Jkoea nato a Parigi, ha svolto i suoi studi Odontoiatrici nel sud della francia ,trasferito in Italia decide di aprire il suo studio che divenne in pochi mesi uno dei più rinomati', 'img'=>'/img/dentista2.jpg'],
             ['nome'=>'Imkaer Orsal', 'ruolo'=>'Dentista', 'storia'=>'Imkaer Orsal nato a Parigi, ha svolto i suoi studi Odontoiatrici nel sud della francia ,trasferito in Italia decide di aprire il suo studio che divenne in pochi mesi uno dei più rinomati', 'img'=>'/img/dentista5.jpg'],
-            ['nome'=>'Erneslk Sokove', 'ruolo'=>'Dentista', 'storia'=>'Erneslk Sokove nato a Parigi, ha svolto i suoi studi Odontoiatrici nel sud della francia ,trasferito in Italia decide di aprire il suo studio che divenne in pochi mesi uno dei più rinomati', 'img'=>'/img/dentista6.jpg'],
+            ['nome'=>'Ernelk Sokov', 'ruolo'=>'Dentista', 'storia'=>'Ernelk Sokov nato a Parigi, ha svolto i suoi studi Odontoiatrici nel sud della francia ,trasferito in Italia decide di aprire il suo studio che divenne in pochi mesi uno dei più rinomati', 'img'=>'/img/dentista6.jpg'],
         ];
 
         return view('chisiamo', ['dentisti'=>$dentisti]);

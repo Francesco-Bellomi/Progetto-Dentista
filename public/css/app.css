@@ -1,40 +1,51 @@
-p,div{
+p,
+div {
     font-family: 'Courgette', cursive;
 }
-h1,h2,h3,h4,h5{
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Cinzel', serif;
 }
-:root{
-    
-    --main-color:#FE7F2D;
-    --sec-color:#8dc7ee;
-    --white:#FFFFFF;
-    --black:#000000;
 
+:root {
+    --main-color: #FE7F2D;
+    --sec-color: #8dc7ee;
+    --white: #FFFFFF;
+    --black: #000000;
 }
-.tc-main{
+
+.tc-main {
     color: var(--main-color);
 }
-.tc-sec{
+
+.tc-sec {
     color: var(--sec-color);
 }
-.tc-black{
+
+.tc-black {
     color: var(--black);
 }
-.tc-white{
+
+.tc-white {
     color: var(--white);
 }
 
-.bg-black{
+.bg-black {
     background-color: var(--black);
 }
-.bg-white{
+
+.bg-white {
     background-color: var(--white);
 }
 
-.bg-white-1{
+.bg-white-1 {
     background-color: #ffffff8e;
 }
+
 a {
     color: var(--black) !important;
     -webkit-text-decoration: underline transparent !important;
@@ -47,8 +58,6 @@ a:hover {
             text-decoration: underline var(--sec-color) !important;
 }
 
-
-
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -59,7 +68,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:900px) {
     .masthead {
         height: 100vh;
         min-height: 500px;
@@ -71,75 +80,70 @@ a:hover {
     }
 }
 
-.border-nav-custom{
+.border-nav-custom {
     border-bottom: 1px solid var(--black);
     border-top: 1px solid var(--black);
 }
 
-.bg-chisiamo{
+.bg-chisiamo {
     display: flex;
     background-image: url(/img/chisiamo.jpg);
-    background-size: cover; 
-    
+    background-size: cover;
     height: 100vh;
     min-height: 500px;
     image-rendering: auto;
-   
 }
 
-.img-card-custom{
+.img-card-custom {
     padding: 2%;
     background-color: var(--white);
     height: 40vh;
     border-radius: 100%;
     border: 2px solid var(--black);
-    
 }
-.img-card-custom:hover{
+
+.img-card-custom:hover {
     padding: 0%;
     background-color: var(--white);
     height: 40vh;
     border-radius: 100%;
     border: 2px solid var(--black);
-    
 }
 
-.img-card-custom-2{
+.img-card-custom-2 {
     padding: 2%;
     background-color: var(--white);
     height: 20vh;
     width: 40vh;
     border-radius: 100%;
     border: 2px solid var(--black);
-    
 }
 
-
-.card-custom{
+.card-custom {
     color: var(--black);
-    background-color: transparent;
-    border-radius: 10%;
-    border-radius: 100%;
+    background: linear-gradient(to bottom, transparent 50%, #8dc7ee) !important;
 }
 
-.btn-custom{
+.btn-custom {
     background-color: #8dc7ee;
 }
 
-.btn-custom-2{
+.btn-custom-2 {
     background-color: #8dc7ee !important;
 }
-.btn-custom-2:hover{
+
+.btn-custom-2:hover {
     color: #8dc7ee !important;
     background-color: #000000c9!important;
     transition: all 0.4s;
 }
 
-.underline-custom{
+.underline-custom {
     -webkit-text-decoration: underline 2px solid var(--sec-color);
             text-decoration: underline 2px solid var(--sec-color);
 }
-.blur{
+
+.blur {
     background-color: rgba(0, 0, 0, 0.308);
     -webkit-backdrop-filter: blur(4px);
             backdrop-filter: blur(4px);
@@ -148,32 +152,32 @@ a:hover {
 .masthead-2 {
     background-image: url('/img/servizi.jpg');
     background-size: cover;
-    
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.card-custom-2{
+
+.card-custom-2 {
     color: var(--black);
-    background:linear-gradient(to bottom, transparent 50%,rgba(247, 248, 248, 0.767)) !important;
+    background: linear-gradient(to bottom, transparent 50%, rgba(247, 248, 248, 0.767)) !important;
     border-radius: 30%;
 }
-@media screen and (max-width: 550px){
 
-    .card-custom-2{
+@media screen and (max-width: 550px) {
+    .card-custom-2 {
         color: var(--black);
-        background:linear-gradient(to bottom, transparent 50%,rgba(247, 248, 248, 0.767)) !important;
+        background: linear-gradient(to bottom, transparent 50%, rgba(247, 248, 248, 0.767)) !important;
         border-radius: 20%;
     }
 }
-.bg-custom{
+
+.bg-custom {
     background-color: #8dc7ee4d;
     align-items: center;
 }
 
-.bg-grey{
-    background:linear-gradient(to bottom, #8dc7ee, white);
+.bg-grey {
+    background: linear-gradient(to bottom, #55d4eb9b, rgba(255, 255, 255, 0.733));
 }
-
 
 .form-control {
     display: block;
@@ -185,7 +189,7 @@ a:hover {
     color: #212529;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid #3884cf;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
