@@ -29,6 +29,10 @@
                 </div>
                 <p class="text-center mt-3"><i class="fas fa-tooth tc-white"></i> ricordiamo che la prima visita è gratuita! <i class="fas fa-tooth tc-white"></i></p>
             </div>
+            <h2 class="text-center pt-5">Dove Siamo</h2>
+            <div class="col-12 mt-4 ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.279263988434!2d9.153956915714373!3d45.484320840121285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1121cffb341%3A0x833f18a30000f295!2sPiazzale%20Damiano%20Chiesa%2C%2020149%20Milano%20MI!5e0!3m2!1sit!2sit!4v1618129506670!5m2!1sit!2sit" width="100%" height="400px" style="border:8px solid #8dc7ee;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
     </div>
 
